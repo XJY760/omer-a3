@@ -1,0 +1,293 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.26f1c1 (19b503b0ef33) revision 1684739'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32494 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.26f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity_Demo/Little Snail's Starry Sky Journey
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52327
+Successfully changed project path to: F:/Unity_Demo/Little Snail's Starry Sky Journey
+F:/Unity_Demo/Little Snail's Starry Sky Journey
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20332] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 771234015 [EditorId] 771234015 [Version] 1048832 [Id] WindowsEditor(7,yzh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20332] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 771234015 [EditorId] 771234015 [Version] 1048832 [Id] WindowsEditor(7,yzh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 62.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1c1 (19b503b0ef33)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.26f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity_Demo/Little Snail's Starry Sky Journey/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:   NVIDIA
+    VRAM:     7807 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.26f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.26f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.26f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.26f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/2021.3.26f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003092 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 235 ms
+Refreshing native plugins compatible for Editor in 57.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (304ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity_Demo\Little Snail's Starry Sky Journey\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity_Demo\Little Snail's Starry Sky Journey\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 63.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (870ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (685ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (284.1 KB). Loaded Objects now: 4198.
+Memory consumption went from 147.5 MB to 147.2 MB.
+Total: 2.550600 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.195900 ms  DeleteObjects: 0.063900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17918.353634 seconds.
+  path: Assets/故事书题材/星空.jpg
+  artifactKey: Guid(f8eb23e54906d6441809748abd76fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/星空.jpg using Guid(f8eb23e54906d6441809748abd76fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd6fa3e39609994846cbae0a8e4876f') in 0.223220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.426364 seconds.
+  path: Assets/故事书题材
+  artifactKey: Guid(7c63fda228084b14088e5ac8cd493313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材 using Guid(7c63fda228084b14088e5ac8cd493313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9813d345e8fb338efed5e2e6d5142a30') in 0.003114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.002066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.720105 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce522ba499e3f921a4a201203bf64c92') in 0.001428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.743060 seconds.
+  path: Assets/font
+  artifactKey: Guid(f31db786a8e92c24ba10c23f8f51b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/font using Guid(f31db786a8e92c24ba10c23f8f51b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515c6f3e93a6ed4a642b29ce0d8751f6') in 0.001983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.451580 seconds.
+  path: Assets/Font
+  artifactKey: Guid(f31db786a8e92c24ba10c23f8f51b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font using Guid(f31db786a8e92c24ba10c23f8f51b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e7c103ba4b6a0344124178103071fe') in 0.001336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.112799 seconds.
+  path: Assets/Font/Nosifer-Regular.ttf
+  artifactKey: Guid(79211569ecc4914408527c1a75250fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/Nosifer-Regular.ttf using Guid(79211569ecc4914408527c1a75250fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8c6c159b94b35ff4919a1363a962f7') in 0.038600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.523171 seconds.
+  path: Assets/Font/Ty5Cg.ttf
+  artifactKey: Guid(01ef67731493f044da236e2f4dddaaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/Ty5Cg.ttf using Guid(01ef67731493f044da236e2f4dddaaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecc911c568615984cf01558d552b11e') in 0.033587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.107887 seconds.
+  path: Assets/Font/AlimamaShuHeiTi-Bold.otf
+  artifactKey: Guid(55012dd9b617edc4d9a71f94e30e5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/AlimamaShuHeiTi-Bold.otf using Guid(55012dd9b617edc4d9a71f94e30e5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9eb364e26363b3275efe6cff2cb0f9') in 0.010777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.047709 seconds.
+  path: Assets/Font/AlimamaShuHeiTi-Bold.ttf
+  artifactKey: Guid(8145ea1bcbcc98f4295a848ab299336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/AlimamaShuHeiTi-Bold.ttf using Guid(8145ea1bcbcc98f4295a848ab299336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c9d798d2b87f095ee3569e96dc3933') in 0.025516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.801229 seconds.
+  path: Assets/Font/LiberationSans.ttf
+  artifactKey: Guid(d6903ac73b6f6ff47aad2ed7c2a3e09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/LiberationSans.ttf using Guid(d6903ac73b6f6ff47aad2ed7c2a3e09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a566dc671f151ca0fc7ae7b5856e38ea') in 0.012824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.102563 seconds.
+  path: Assets/故事书题材/listenAgain.jpg
+  artifactKey: Guid(86fdf1b14588fa545972d19198dcdc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/listenAgain.jpg using Guid(86fdf1b14588fa545972d19198dcdc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb0e9f75cb4b6d7119451e8e764d34e') in 0.074384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/故事书题材/返回.jpg
+  artifactKey: Guid(3146f117bf2f6124e812ccf7302ae431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/返回.jpg using Guid(3146f117bf2f6124e812ccf7302ae431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5062c902c4762e4392bb88caf2afef') in 0.074197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/故事书题材/山坡.jpg
+  artifactKey: Guid(d8b27ad9eca3038438556a8739fc5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/山坡.jpg using Guid(d8b27ad9eca3038438556a8739fc5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5f2520c20343506e9c2b2af6ddd008') in 0.140825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/故事书题材/青蛙.jpg
+  artifactKey: Guid(b6da631aa5edcbe48a2c2cf0f4a948fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/青蛙.jpg using Guid(b6da631aa5edcbe48a2c2cf0f4a948fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6fc4b14ec6581e6e04e3062501198d') in 0.075732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/故事书题材/草原.jpg
+  artifactKey: Guid(a2edadd27157f60489a004ef74ae5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/草原.jpg using Guid(a2edadd27157f60489a004ef74ae5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559af73b32c087fab228021784157585') in 0.101518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/故事书题材/树林.jpg
+  artifactKey: Guid(9c61b6d78e263d14cb1f550ff6a76b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/树林.jpg using Guid(9c61b6d78e263d14cb1f550ff6a76b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333eab62f68b2b3102dfd92f3ce66112') in 0.140505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/故事书题材/开始.jpg
+  artifactKey: Guid(ddf10d62edac3684c9a2cb096b242b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/开始.jpg using Guid(ddf10d62edac3684c9a2cb096b242b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e640524631e8ec46f2b9367908323d70') in 0.038926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/故事书题材/星星.jpg
+  artifactKey: Guid(18f89119a85e1634bb047719f6bcca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/星星.jpg using Guid(18f89119a85e1634bb047719f6bcca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65f56d4c2186df8ad0d51cc981f0eda') in 0.027865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/故事书题材/蜗牛.jpg
+  artifactKey: Guid(55f42018342f8da468246fa065d7291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/故事书题材/蜗牛.jpg using Guid(55f42018342f8da468246fa065d7291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682c450d147655e7a5306f153fcb44fe') in 0.063707 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
